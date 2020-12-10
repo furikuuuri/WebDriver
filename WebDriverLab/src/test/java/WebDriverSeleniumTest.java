@@ -18,6 +18,7 @@ public class WebDriverSeleniumTest {
 
     @BeforeMethod(alwaysRun = true)
     public void browserSetup(){
+        System.setProperty("webdriver.chrome.driver","C:/Drivers/chromedriver.exe");
         driver=new ChromeDriver();
     }
 

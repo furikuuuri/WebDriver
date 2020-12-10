@@ -10,7 +10,7 @@
 
 # Maven
 log/
-target/
+WebDriverLab/target/
 # BlueJ files
 *.ctxt
 
